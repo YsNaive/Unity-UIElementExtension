@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48b1c19eb373eb44a4af20652592e29, type: 3}
+  m_Name: SerializableVisualElement
+  m_EditorClassIdentifier: 
+  Name: NaiveAPI_UI
+  DocType: 1
+  MenuIcon: {fileID: 2800000, guid: a701817c8dd65c54c819e08fac8e2daf, type: 3}
+  SubPages: []
+  Components:
+  - ComponentType: 3
+    Text:
+    - Description
+    Picture: {fileID: 0}
+  - ComponentType: 0
+    Text:
+    - "This  allow  you  to  select  named  UIElement easier\nit is a generic container
+      SerializableVisualElement<T>\nso when you  use  it  you  need  to  give  a 
+      type,  only\nVisualElement or its child class are allow\n\nif T == VisualElement\n       
+      popup shows all named element\nelse\n        popup shows element with same
+      type"
+    Picture: {fileID: 0}
+  - ComponentType: 6
+    Text:
+    - 
+    Picture: {fileID: 0}
+  - ComponentType: 3
+    Text:
+    - Properties
+    Picture: {fileID: 0}
+  - ComponentType: 5
+    Text:
+    - Type%column%Name%column%Get%column%Set%column%Usage
+    - "UIDocument%column%UIDocument%column%   \u25A0%column%   \u25A0%column%base
+      on which UID"
+    - "T%column%Element%column%   \u25A0%column%%column%target you select"
+    Picture: {fileID: 0}
+  - ComponentType: 6
+    Text:
+    - 
+    Picture: {fileID: 0}
+  - ComponentType: 3
+    Text:
+    - On Inspector sample
+    Picture: {fileID: 0}
+  - ComponentType: 0
+    Text:
+    - 'For example, we have a button named "my-btn"
+
+      in UID, and use Button
+      as T type.'
+    Picture: {fileID: 0}
+  - ComponentType: 4
+    Text:
+    - 0.75
+    Picture: {fileID: 2800000, guid: 56c9602f4b375924e8dcd5cc73a39d9d, type: 3}
+  - ComponentType: 4
+    Text:
+    - 0.53
+    Picture: {fileID: 2800000, guid: d7dff6167e7c6954eb02ad64a7a31d00, type: 3}
+  - ComponentType: 0
+    Text:
+    - '
+
+
+      Now, we change T as VisualElement'
+    Picture: {fileID: 0}
+  - ComponentType: 4
+    Text:
+    - 0.62
+    Picture: {fileID: 2800000, guid: e2a2e9aa0fc5fad47a628264cc8684b1, type: 3}
+  - ComponentType: 4
+    Text:
+    - 0.53
+    Picture: {fileID: 2800000, guid: 7d9300e46cb8ce547a12057d76452e5d, type: 3}

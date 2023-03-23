@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48b1c19eb373eb44a4af20652592e29, type: 3}
+  m_Name: ISStyle
+  m_EditorClassIdentifier: 
+  Name: NaiveAPI_UI
+  DocType: 1
+  MenuIcon: {fileID: 2800000, guid: a701817c8dd65c54c819e08fac8e2daf, type: 3}
+  SubPages: []
+  Components:
+  - ComponentType: 3
+    Text:
+    - Description
+    Picture: {fileID: 0}
+  - ComponentType: 0
+    Text:
+    - 'ISStyle comtains all of class set with header  "IS",
+
+      and has a mask
+      to determine what can be edited.
+
+      It  is  also  one  of  the  easiest 
+      to  use  with  best
+
+      inspector layout.'
+    Picture: {fileID: 0}
+  - ComponentType: 6
+    Text:
+    - 
+    Picture: {fileID: 0}
+  - ComponentType: 3
+    Text:
+    - Properties
+    Picture: {fileID: 0}
+  - ComponentType: 5
+    Text:
+    - Type%column%Name%column%Get%column%Set%column%Usage
+    - "int%column%EnableMask%column%   \u25A0%column%   \u25A0%column%determine what
+      can\\nbe edited."
+    - "ISDisplay%column%Display%column%   \u25A0%column%   \u25A0%column%"
+    - "ISPosition%column%Position%column%   \u25A0%column%   \u25A0%column%"
+    - "ISFlex%column%Flex%column%   \u25A0%column%   \u25A0%column%"
+    - "ISAlign%column%Align%column%   \u25A0%column%   \u25A0%column%"
+    - "ISSize%column%Size%column%   \u25A0%column%   \u25A0%column%"
+    - "ISMargin%column%Margin%column%   \u25A0%column%   \u25A0%column%"
+    - "ISPadding%column%Padding%column%   \u25A0%column%   \u25A0%column%"
+    - "ISText%column%Text%column%   \u25A0%column%   \u25A0%column%"
+    - "ISBackground%column%Background%column%   \u25A0%column%   \u25A0%column%"
+    - "ISBorder%column%Border%column%   \u25A0%column%   \u25A0%column%"
+    - "ISRadius%column%Radius%column%   \u25A0%column%   \u25A0%column%"
+    Picture: {fileID: 0}
+  - ComponentType: 0
+    Text:
+    - "EnableMask is a binary mask, the meanning is:\n( bits is count from right
+      to left )\n\n 1: can editedable IS change on Inspector\n 2: is ISDisplay enable\n3:
+      is ISPosition enable\n...\n11: is ISRadius enable\n\nyou can calculate by enum
+      table below or use\n-> Tools / NaiveAPI / ISStyle Mask counter"
+    Picture: {fileID: 0}
+  - ComponentType: 6
+    Text:
+    - 
+    Picture: {fileID: 0}
+  - ComponentType: 3
+    Text:
+    - Sub Enum
+    Picture: {fileID: 0}
+  - ComponentType: 0
+    Text:
+    - ISType
+    Picture: {fileID: 0}
+  - ComponentType: 5
+    Text:
+    - value%column%int value
+    - None%column%0
+    - EnableMask%column%1
+    - Display%column%2
+    - Position%column%4
+    - Flex%column%8
+    - Align%column%16
+    - Size%column%32
+    - Margin%column%64
+    - Padding%column%128
+    - Text%column%256
+    - Background%column%512
+    - Border%column%1024
+    - Radius%column%2048
+    Picture: {fileID: 0}
+  - ComponentType: 6
+    Text:
+    - 
+    Picture: {fileID: 0}
+  - ComponentType: 3
+    Text:
+    - Methods
+    Picture: {fileID: 0}
+  - ComponentType: 2
+    Text:
+    - bool
+    - IsEnable
+    - 'int
+
+      mask'
+    - check is all IS in mask is enable
+    Picture: {fileID: 0}
+  - ComponentType: 2
+    Text:
+    - bool
+    - IsEnable
+    - 'ISStyle.ISType
+
+      type'
+    - check is target IS is enable
+    Picture: {fileID: 0}
+  - ComponentType: 2
+    Text:
+    - bool
+    - SetEnable
+    - 'ISStyle.ISType
+
+      type'
+    - 'bool
+
+      isEnable'
+    - check is target IS is enable
+    Picture: {fileID: 0}

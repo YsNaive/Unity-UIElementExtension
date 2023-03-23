@@ -1,0 +1,19 @@
+{
+    "name": "Naive.UIElementExtension.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2a39e1f859d61234a98d3acf83c95d76",
+        "GUID:0d7782dd941367045a9d63c13a916f8c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
